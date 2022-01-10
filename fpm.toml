@@ -1,0 +1,15 @@
+name = "kronrod"
+author = "Jacob Williams"
+copyright  = "Copyright (c) 2022, Jacob Williams"
+license = "LGPL"
+description = "Program for genering Gauss-Kronrod Coefficients"
+homepage = "https://github.com/jacobwilliams/kronrod"
+keywords = ["gauss-kronrod"]
+
+[dependencies]
+mpfun2020-var1 = { git="https://github.com/jacobwilliams/mpfun2020-var1.git" }
+
+[build]
+auto-executables = true
+auto-examples = true
+auto-tests = true
