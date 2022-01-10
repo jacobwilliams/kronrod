@@ -2,7 +2,7 @@
 
 Fortran program for generating Gauss-Kronrod coefficients.
 
-Uses the MPFUN2020 arbitrary precision Fortran library.
+Uses the [MPFUN2020](https://github.com/jacobwilliams/mpfun2020-var1) arbitrary precision Fortran library.
 
 ### Building
 
