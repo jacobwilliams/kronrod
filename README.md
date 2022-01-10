@@ -4,6 +4,8 @@ Fortran program for generating Gauss-Kronrod coefficients.
 
 Uses the [MPFUN2020](https://github.com/jacobwilliams/mpfun2020-var1) arbitrary precision Fortran library.
 
+The purpose of this is to use it for the new modernized [QUADPACK](https://github.com/jacobwilliams/quadpack) library.
+
 ### Building
 
 A [Fortran Package Manager](https://github.com/fortran-lang/fpm) manifest file is included, so that the application can be compiled and run with FPM. For example:
@@ -12,6 +14,9 @@ A [Fortran Package Manager](https://github.com/fortran-lang/fpm) manifest file i
 fpm run --profile release
 ```
 
+### See also
+
+ * Modernized [QUADPACK](https://github.com/jacobwilliams/quadpack) library.
 ### References
 
  * The main program is based on this code: https://people.sc.fsu.edu/~jburkardt/f_src/kronrod/kronrod.html, which was modified to use the MPFUN2020 library.
